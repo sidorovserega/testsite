@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" verbose="1">
+    <parameter name="site-name" value="https://rencredit.ru/" />
+    <test name="testsite">
+        <classes>
+            <class name="SimpleTest">
+                <methods>
+                    <include name="testSite1" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite
